@@ -14,6 +14,14 @@
 		6D55FC15229F09D800003140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D55FC13229F09D800003140 /* LaunchScreen.storyboard */; };
 		6D55FC20229F09D800003140 /* Project_RecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D55FC1F229F09D800003140 /* Project_RecipeTests.swift */; };
 		6D55FC2B229F09D800003140 /* Project_RecipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D55FC2A229F09D800003140 /* Project_RecipeUITests.swift */; };
+		6D55FC40229F0AB100003140 /* Kootu Curry.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6D55FC38229F0AB100003140 /* Kootu Curry.pdf */; };
+		6D55FC41229F0AB100003140 /* Malabar Paratha.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6D55FC39229F0AB100003140 /* Malabar Paratha.pdf */; };
+		6D55FC42229F0AB100003140 /* Appam Recipe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6D55FC3A229F0AB100003140 /* Appam Recipe.pdf */; };
+		6D55FC43229F0AB100003140 /* Beetroot Thoran.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6D55FC3B229F0AB100003140 /* Beetroot Thoran.pdf */; };
+		6D55FC44229F0AB100003140 /* Red Coconut Chutney.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6D55FC3C229F0AB100003140 /* Red Coconut Chutney.pdf */; };
+		6D55FC45229F0AB100003140 /* Ulli Theeyal.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6D55FC3D229F0AB100003140 /* Ulli Theeyal.pdf */; };
+		6D55FC46229F0AB100003140 /* Vegetable Stew.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6D55FC3E229F0AB100003140 /* Vegetable Stew.pdf */; };
+		6D55FC47229F0AB100003140 /* Sambar Kerala Style.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6D55FC3F229F0AB100003140 /* Sambar Kerala Style.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		6D55FC26229F09D800003140 /* Project RecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project RecipeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D55FC2A229F09D800003140 /* Project_RecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_RecipeUITests.swift; sourceTree = "<group>"; };
 		6D55FC2C229F09D800003140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D55FC38229F0AB100003140 /* Kootu Curry.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kootu Curry.pdf"; sourceTree = "<group>"; };
+		6D55FC39229F0AB100003140 /* Malabar Paratha.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Malabar Paratha.pdf"; sourceTree = "<group>"; };
+		6D55FC3A229F0AB100003140 /* Appam Recipe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Appam Recipe.pdf"; sourceTree = "<group>"; };
+		6D55FC3B229F0AB100003140 /* Beetroot Thoran.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Beetroot Thoran.pdf"; sourceTree = "<group>"; };
+		6D55FC3C229F0AB100003140 /* Red Coconut Chutney.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Red Coconut Chutney.pdf"; sourceTree = "<group>"; };
+		6D55FC3D229F0AB100003140 /* Ulli Theeyal.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Ulli Theeyal.pdf"; sourceTree = "<group>"; };
+		6D55FC3E229F0AB100003140 /* Vegetable Stew.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Vegetable Stew.pdf"; sourceTree = "<group>"; };
+		6D55FC3F229F0AB100003140 /* Sambar Kerala Style.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sambar Kerala Style.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,14 @@
 		6D55FC09229F09D700003140 /* Project Recipe */ = {
 			isa = PBXGroup;
 			children = (
+				6D55FC3B229F0AB100003140 /* Beetroot Thoran.pdf */,
+				6D55FC3A229F0AB100003140 /* Appam Recipe.pdf */,
+				6D55FC38229F0AB100003140 /* Kootu Curry.pdf */,
+				6D55FC39229F0AB100003140 /* Malabar Paratha.pdf */,
+				6D55FC3C229F0AB100003140 /* Red Coconut Chutney.pdf */,
+				6D55FC3F229F0AB100003140 /* Sambar Kerala Style.pdf */,
+				6D55FC3D229F0AB100003140 /* Ulli Theeyal.pdf */,
+				6D55FC3E229F0AB100003140 /* Vegetable Stew.pdf */,
 				6D55FC0A229F09D700003140 /* AppDelegate.swift */,
 				6D55FC0C229F09D700003140 /* ViewController.swift */,
 				6D55FC0E229F09D700003140 /* Main.storyboard */,
@@ -230,7 +254,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D55FC15229F09D800003140 /* LaunchScreen.storyboard in Resources */,
+				6D55FC42229F0AB100003140 /* Appam Recipe.pdf in Resources */,
+				6D55FC41229F0AB100003140 /* Malabar Paratha.pdf in Resources */,
 				6D55FC12229F09D800003140 /* Assets.xcassets in Resources */,
+				6D55FC46229F0AB100003140 /* Vegetable Stew.pdf in Resources */,
+				6D55FC40229F0AB100003140 /* Kootu Curry.pdf in Resources */,
+				6D55FC45229F0AB100003140 /* Ulli Theeyal.pdf in Resources */,
+				6D55FC44229F0AB100003140 /* Red Coconut Chutney.pdf in Resources */,
+				6D55FC47229F0AB100003140 /* Sambar Kerala Style.pdf in Resources */,
+				6D55FC43229F0AB100003140 /* Beetroot Thoran.pdf in Resources */,
 				6D55FC10229F09D700003140 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,8 +464,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 85B8257YG7;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Project Recipe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,6 +473,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vnm.Project-Recipe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,8 +483,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 85B8257YG7;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Project Recipe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +492,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vnm.Project-Recipe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
