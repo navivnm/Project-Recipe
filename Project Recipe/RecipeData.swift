@@ -11,5 +11,4 @@ import Foundation
 class recipeClass
 {
     var arrayRecipeName = ["Appam Recipe","Vegetable Stew","Red Coconut Chutney","Sambar Kerala Style","Beetroot Thoran","Malabar Paratha","Ulli Theeyal","Kootu Curry"]
-    var arrayRecipeImage = ["kerala","masala","putt","fish","kerala","masala","putt","fish"]
 }
