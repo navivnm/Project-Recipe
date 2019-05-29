@@ -12,6 +12,8 @@ import XCTest
 class Project_RecipeTests: XCTestCase {
 
     var recipeData = recipeClass()
+    var viewController = ViewController()
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -25,11 +27,15 @@ class Project_RecipeTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
         let arrayRecipeName = ["Appam Recipe","Vegetable Stew","Red Coconut Chutney","Sambar Kerala Style","Beetroot Thoran","Malabar Paratha","Ulli Theeyal","Kootu Curry"]
+        let title = viewController.navTitle
+        
         if arrayRecipeName == recipeData.arrayRecipeName
         {
             print("okkkkkk")
         }
         XCTAssertEqual(arrayRecipeName, recipeData.arrayRecipeName)
+        XCTAssertEqual(title, "Recipe")
+        XCTAssertEqual(viewController.cellHeight, 80)
     }
 
     func testPerformanceExample() {

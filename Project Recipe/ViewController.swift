@@ -12,8 +12,10 @@ import WebKit
 class ViewController: UIViewController
 {
     var recipeData = recipeClass()
-    let navTitle = "Recipe"
     var webView = WKWebView()
+    
+    let navTitle = "Recipe"
+    let cellHeight = 80
     
     @IBOutlet weak var navigationTitle: UINavigationItem!
     @IBOutlet weak var tableViewRecipe: UITableView!
@@ -28,7 +30,7 @@ class ViewController: UIViewController
         title = navTitle
         
         //table cell height change
-        tableViewRecipe.rowHeight = 80
+        tableViewRecipe.rowHeight = CGFloat(cellHeight)
         
         viewRecipeDetails.isHidden = true
         btnBack.isEnabled = false
@@ -42,6 +44,7 @@ class ViewController: UIViewController
     }
 }
 
+//functions
 extension ViewController
 {
     //back button action
@@ -77,7 +80,7 @@ extension ViewController
                 
             }
             catch {
-                // catch errors here
+                // catch errors here if no pdf found
             }
         }
     }
