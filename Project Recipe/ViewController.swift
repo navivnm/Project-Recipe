@@ -36,6 +36,7 @@ class ViewController: UIViewController
         viewRecipeDetails.isHidden = true
         btnBack.isEnabled = false
         btnBack.tintColor = .clear
+        print("***")
     }
     
     //back button
